@@ -1,5 +1,6 @@
-require 'default.rb'
-require 'defaultMappingRegistry.rb'
+cdir = File.dirname(__FILE__)
+require cdir + '/default.rb'
+require cdir + '/defaultMappingRegistry.rb'
 require 'soap/rpc/driver'
 
 class MantisConnectPortType < ::SOAP::RPC::Driver

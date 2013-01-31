@@ -2,10 +2,11 @@
 
 require 'optparse'
 require 'ostruct'
-require 'defaultDriver.rb'
 require 'iconv'
 require 'pp'
 require 'logger'
+cdir = File.dirname(__FILE__)
+require cdir + '/defaultDriver.rb'
 
 module MantisConnector
 

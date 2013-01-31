@@ -1,4 +1,5 @@
-require 'default.rb'
+cdir = File.dirname(__FILE__)
+require cdir + '/default.rb'
 require 'soap/mapping'
 
 module DefaultMappingRegistry
